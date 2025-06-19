@@ -1,4 +1,4 @@
-Hany's Portfolio with the Visual Studio Code Theme
+# Omar Hany's Portfolio with the Visual Studio Code Theme
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Hany's Portfolio with the Visual Studio Code Theme
 
 ### Screenshot
 
-![](./public/assets/project-vscode.webp)
+![Screenshot](./public/assets/project-vscode.webp)
 
 ### Links
 
@@ -45,121 +45,92 @@ Hany's Portfolio with the Visual Studio Code Theme
 
 1. **Fork** this repository to your GitHub account.
 2. **Clone** the forked repository:
+
    ```bash
    git clone https://github.com/your-username/portfolio.git
+   ```
 
 3. Navigate to the project folder:
 
-cd portfolio
-
+   ```bash
+   cd portfolio
+   ```
 
 4. Install all dependencies:
 
-npm install
-
+   ```bash
+   npm install
+   ```
 
 5. Start the development server:
 
-npm run dev
+   ```bash
+   npm run dev
+   ```
 
-
-6. Open your browser and go to http://localhost:5173 to view it locally.
-
-
-
+6. Open your browser and go to `http://localhost:5173` to view it locally.
 
 ---
 
-Make It Your Own
+## Make It Your Own
 
 To customize this portfolio:
 
-Navigate to /public/data.
+1. Navigate to `/public/data`.
+2. Edit the `.ts` files to update:
+   - Your bio
+   - Skills
+   - Projects
+   - Social links
+3. Restart the dev server:
 
-Edit the .ts files to update:
-
-Your bio
-
-Skills
-
-Projects
-
-Social links
-
-
-Restart the dev server:
-
-npm run dev
-
+   ```bash
+   npm run dev
+   ```
 
 That’s it. No backend or complicated config required!
 
-
 ---
 
-Deploy on Vercel
+## Deploy on Vercel
 
 Quick steps to deploy on Vercel:
 
 1. Fork this repository.
-
-
-2. Go to https://vercel.com/new.
-
-
+2. Go to [https://vercel.com/new](https://vercel.com/new).
 3. Connect your GitHub and import the forked repo.
-
-
 4. Accept the default Vercel settings.
-
-
-5. Hit Deploy, and you’re live!
-
-
-
+5. Hit **Deploy**, and you’re live!
 
 ---
 
-Use Your Own Email API
+## Use Your Own Email API
 
 This project uses EmailJS for the contact form.
 
 To set it up:
 
-1. Create an account on EmailJS.
-
-
+1. Create an account on [EmailJS](https://www.emailjs.com/).
 2. Create an email template and get your:
+   - **Service ID**
+   - **Template ID**
+   - **Public key**
+3. Update these in `/src/utils/sendEmail.ts` accordingly:
 
-Service ID
-
-Template ID
-
-Public key
-
-
-
-3. Update these in /src/utils/sendEmail.ts accordingly:
-
-emailjs.send(
-  SERVICE_ID,
-  TEMPLATE_ID,
-  templateParams,
-  PUBLIC_KEY
-);
-
-
-
+   ```ts
+   emailjs.send(
+     SERVICE_ID,
+     TEMPLATE_ID,
+     templateParams,
+     PUBLIC_KEY
+   );
+   ```
 
 ---
 
-Author
+## Author
 
-👨‍💻 Website – Omar Hany
-
-💼 LinkedIn – @omar-hany-l850
-
-📘 Facebook – @Omar.Hany.850
-
-📸 Instagram – @omar.hany.850
-
+- 👨‍💻 **Website** – [Omar Hany](https://omarhany.netlify.app)
+- 💼 **LinkedIn** – [@omar-hany-l850](https://www.linkedin.com/in/omar-hany-l850)
+- 📘 **Facebook** – [@Omar.Hany.850](https://www.facebook.com/Omar.Hany.850)
+- 📸 **Instagram** – [@omar.hany.850](https://www.instagram.com/omar.hany.850)
