@@ -24,7 +24,7 @@
 ### Links
 
 - **Live Demo**: [https://omarhany.netlify.app](https://omarhany.netlify.app)
-- **GitHub Repo**: [https://github.com/OmarHany-sudo/portfolio](https://github.com/OmarHany-sudo/portfolio)
+- **GitHub Repo**: [https://github.com/OmarHany-sudo/Omar](https://github.com/OmarHany-sudo/Omar)
 
 ---
 
@@ -47,13 +47,13 @@
 2. **Clone** the forked repository:
 
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/OmarHany-sudo/Omar.git
    ```
 
 3. Navigate to the project folder:
 
    ```bash
-   cd portfolio
+   cd Omar
    ```
 
 4. Install all dependencies:
