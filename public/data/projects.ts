@@ -1,61 +1,58 @@
 export const projects = [
   {
-    // To use your own project photo, just place it in /public/assets and write the link as I did: eg: /assets/my_image.jpg
-    // Of course it's best to convert your image file type to webp for better performance on the web!
-    // Or just use a cloud image hosting platform like cloudinary and use the image url from there.
-    ImageURL: "/assets/project-cyberrecon.webp", //
-    Title: "CyberRecon (Vulnerability Scanner)",
-    Description:
-      "A tool for scanning web application vulnerabilities and identifying potential weaknesses.",
-    Technologies: [
-      "python",
-      "javascript",
-      "docker",
-      "security",
-      "web scanning",
-    ],
-    Source: "https://github.com/OmarHany-sudo/CyberRecon", // Optional!
-    Demo: "https://cyberrecon.demo.com/", // Optional!
+    ImageURL: "/assets/project-an8zny.webp",
+    Title: "An8zny - Mental Health Platform",
+    Description: "A platform focused on mental health awareness with educational resources and support tools.",
+    Technologies: ["html", "css", "javascript", "responsive", "a11y"],
+    Source: "https://github.com/OmarHany-sudo/an8zny",
+    Demo: "https://omarhany-sudo.github.io/an8zny/",
   },
   {
-    ImageURL: "/assets/project-ecommerce.webp",
-    Title: "E-commerce Website with Django & React",
-    Description:
-      "A complete e-commerce platform with an interactive user interface and robust backend management.",
-    Technologies: [
-      "django",
-      "react",
-      "postgresql",
-      "redux",
-      "responsive",
-      "javascript",
-    ],
-    Source: "https://github.com/OmarHany-sudo/ecommerce-platform",
-    Demo: "https://ecommerce-demo.com/",
+    ImageURL: "/assets/project-orcatech.webp",
+    Title: "OrcaTech - Cybersecurity Community",
+    Description: "Landing page for a cybersecurity community initiative.",
+    Technologies: ["html", "css", "javascript", "responsive", "design"],
+    Source: "https://github.com/OmarHany-sudo/OrcaTech",
+    Demo: "https://omarhany-sudo.github.io/OrcaTech/",
   },
   {
-    ImageURL: "/assets/project-portfolio.webp",
-    Title: "Portfolio Site with JS Animations",
-    Description: "A portfolio website with advanced animation effects using JavaScript.",
+    ImageURL: "/assets/project-delish.webp",
+    Title: "Delish - Food Delivery Website",
+    Description: "A delicious responsive UI for an imaginary food delivery service.",
+    Technologies: ["html", "css", "javascript", "responsive", "UX"],
+    Source: "https://github.com/OmarHany-sudo/Delish",
+    Demo: "https://delish1.netlify.app/",
+  },
+  {
+    ImageURL: "/assets/project-gaia.webp",
+    Title: "Gaia Nutrition Website",
+    Description: "A website for a professional nutritionist with booking and article sections.",
+    Technologies: ["html", "css", "javascript", "seo", "responsive"],
+    Source: "https://github.com/OmarHany-sudo/gaia-nutrition",
+    Demo: "https://gaia-nutrition.netlify.app/",
+  },
+  {
+    ImageURL: "/assets/project-feroo.webp",
+    Title: "Feroo Sushi - Restaurant Website",
+    Description: "Sushi restaurant website with a beautiful layout and animations.",
     Technologies: ["html", "css", "javascript", "gsap", "responsive"],
-    Source: "https://github.com/OmarHany-sudo/portfolio",
-    Demo: "https://omarhany-sudo.github.io/portfolio",
+    Source: "https://github.com/OmarHany-sudo/feroo-sushi",
+    Demo: "https://feroo-sushi.netlify.app/",
   },
   {
-    ImageURL: "/assets/project-chat.webp",
-    Title: "Real-time Chat App using Node.js and Socket.IO",
-    Description:
-      "An instant messaging application with support for multiple rooms and private messages.",
-    Technologies: [
-      "node",
-      "express",
-      "socket.io",
-      "mongodb",
-      "javascript",
-      "responsive",
-    ],
-    Source: "https://github.com/OmarHany-sudo/realtime-chat",
-    Demo: "https://realtime-chat-demo.com/",
+    ImageURL: "/assets/project-omarhany.webp",
+    Title: "Omar Hany Portfolio",
+    Description: "Personal developer portfolio with smooth UI and animations.",
+    Technologies: ["html", "css", "javascript", "animation", "responsive"],
+    Source: "https://github.com/OmarHany-sudo/OmarHany-Portfolio",
+    Demo: "https://omarhany.netlify.app/",
+  },
+  {
+    ImageURL: "/assets/project-hanyshalaby.webp",
+    Title: "Hany Shalaby Portfolio",
+    Description: "Portfolio site for an agricultural engineer with olive-green theme.",
+    Technologies: ["html", "css", "javascript", "responsive", "clean-design"],
+    Source: "https://github.com/OmarHany-sudo/Hany-Shalaby",
+    Demo: "https://hanyshalaby.netlify.app/",
   },
 ];
-
